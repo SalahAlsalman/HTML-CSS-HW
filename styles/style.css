@@ -1,0 +1,60 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+/* html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+} */
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.image-container {
+  /* position: relative; */
+  max-height: 1200px;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+  font-size: 36px;
+}
+
+.container {
+  margin: 5px 250px;
+}
+
+.paragraph {
+  margin-top: 40px;
+}
+
+.image-container {
+  display: block;
+  text-align: center;
+}
+.receipe-info {
+  width: 350px;
+  left: -10%;
+}
+
+.cooking-info {
+  width: 350px;
+  left: -10%;
+}
